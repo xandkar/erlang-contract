@@ -1,0 +1,15 @@
+{application, contract, [
+    {description, "Design by Contract library"},
+    {vsn, "0.0.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        syntax_tools,
+        compiler
+    ]},
+    {env,[]},
+    {maintainers, ["Helium"]},
+    {licenses, ["Apache 2.0"]},
+    {links, [{"GitHub", "https://github.com/helium/erlang-contract"}]}
+]}.
