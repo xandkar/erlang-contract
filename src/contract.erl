@@ -146,6 +146,7 @@
     | {multiple_contracts_satisfied, [t()]}
     .
 
+%% TODO All erros should be of the form: expected X, but given Y.
 -type failure() ::
       negation_failed
     | {unexpected_val, given, val(), expected, val()}
