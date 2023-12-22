@@ -1,6 +1,6 @@
 {application, contract, [
     {description, "Design by Contract library"},
-    {vsn, "0.0.0"},
+    {vsn, "0.1.0"},
     {registered, []},
     {applications, [
         kernel,
@@ -9,7 +9,7 @@
         compiler
     ]},
     {env,[]},
-    {maintainers, ["Helium"]},
+    {maintainers, ["Siraaj Khandkar <siraaj@khandkar.net>"]},
     {licenses, ["Apache 2.0"]},
-    {links, [{"GitHub", "https://github.com/helium/erlang-contract"}]}
+    {links, [{"GitHub", "https://github.com/xandkar/erlang-contract"}]}
 ]}.
